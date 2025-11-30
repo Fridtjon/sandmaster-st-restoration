@@ -44,7 +44,10 @@ docs/
 │   ├── assembly/   # Assembly instructions (22 pages)
 │   ├── radio/      # Radio system manual (20 pages)
 │   └── other/      # Parts lists, engine docs, etc. (18 pages)
-└── IMAGE_INDEX.md  # Complete image catalog
+├── IMAGE_INDEX.md          # Complete image catalog
+├── INSPECTION_CHECKLIST.md # Physical inspection checklist
+├── NITRO_RC_BASICS.md      # Guide to running nitro RC cars
+└── PARTS_AVAILABILITY.md   # Parts sourcing research
 ```
 
 ## About the Sandmaster ST
