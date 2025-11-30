@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Unprocessed photos (raw uploads before organizing)
+unprocessed/
