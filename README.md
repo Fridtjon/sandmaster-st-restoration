@@ -1,10 +1,10 @@
 # Sandmaster ST Nitro Truck Restoration
 
-A documentation project for restoring a 1994 Sandmaster ST Nitro Truck RC car.
+A documentation project for restoring a 1994 Kyosho Sandmaster ST Nitro Truck RC car.
 
 ## Background
 
-This RC truck was purchased at a flea market. The current condition is unknown, and the goal of this project is to document the restoration process from assessment to (hopefully) a running vehicle.
+This RC truck was purchased at a flea market. The goal of this project is to document the restoration process from assessment to (hopefully) a running vehicle.
 
 ## Project Goals
 
@@ -18,13 +18,35 @@ This RC truck was purchased at a flea market. The current condition is unknown, 
 
 **Phase: Initial Assessment**
 
-Awaiting photo documentation of current condition.
+Photo documentation complete. Truck appears complete but condition of internal components unknown.
+
+## Specifications
+
+| Component | Details |
+|-----------|---------|
+| Manufacturer | Kyosho |
+| Model | Sandmaster ST |
+| Scale | 1:10 |
+| Engine | Kyosho GS11X nitro engine |
+| Radio | Hitec Ranger II 2-channel AM (27 MHz) |
+| Servo | Hitec HS-300 |
 
 ## Contents
 
-- `images/` - Photos documenting the truck's condition and restoration progress
-- `docs/` - Research, manuals, and technical documentation
+```
+images/
+├── truck/          # Current condition photos (7 images)
+├── transmitter/    # Radio transmitter photos (4 images)
+└── accessories/    # Charger and other parts (1 image)
+
+docs/
+├── manual/
+│   ├── assembly/   # Assembly instructions (22 pages)
+│   ├── radio/      # Radio system manual (20 pages)
+│   └── other/      # Parts lists, engine docs, etc. (18 pages)
+└── IMAGE_INDEX.md  # Complete image catalog
+```
 
 ## About the Sandmaster ST
 
-The Sandmaster ST was a nitro-powered stadium truck produced in the early-to-mid 1990s. More research needed to identify the exact manufacturer and specifications.
+The Kyosho Sandmaster ST is a 1:10 scale nitro-powered stadium truck produced in the early-to-mid 1990s. It features a 2WD drivetrain and was designed for off-road racing.
