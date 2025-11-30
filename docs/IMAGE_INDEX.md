@@ -13,6 +13,12 @@ This document catalogs all images in the restoration project.
 | 05-front-view.heic | Front view of truck chassis showing engine, suspension, and yellow wheels |
 | 06-chassis-complete.heic | Top-down view of complete truck chassis with engine, battery, and all four wheels visible |
 | 07-engine-detail.heic | Close-up detail of nitro engine cylinder head, carburetor, fuel lines, and yellow fuel tank |
+| 08-receiver-battery-pack-front.heic | 4-cell AA battery holder for receiver, front view with VARTA batteries |
+| 09-receiver-battery-pack-back.heic | Battery holder back view showing JST connector |
+| 10-receiver-battery-pack-side.heic | Battery holder side view |
+| 11-battery-corrosion-detail.heic | Heavy corrosion on battery terminals - batteries need replacement |
+| 12-battery-holder-contacts.heic | Battery holder contact springs with corrosion |
+| 13-power-switch.heic | Power switch for receiver system on chassis |
 
 ## Transmitter (`images/transmitter/`)
 
@@ -61,4 +67,4 @@ This document catalogs all images in the restoration project.
 
 - Original images were in HEIC format from iPhone
 - 1 blank page (IMG_2750) was excluded
-- Total: 72 useful images cataloged
+- Total: 78 useful images cataloged (72 initial + 6 from inspection session)
