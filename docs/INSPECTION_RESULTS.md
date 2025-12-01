@@ -27,7 +27,8 @@ Date: 2024-11-30 (Updated after debugging session)
 ### Radio System (Hitec HP-2RNB)
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Transmitter (Ranger II) | ⚠️ POWERS ON | LED works, but may not be transmitting or crystal mismatch |
+| Transmitter (Ranger II) | ⚠️ POWERS ON | LED works, crystal mismatch, ANTENNA MISSING |
+| Transmitter antenna | ❌ MISSING | Need 27 MHz telescopic antenna |
 | Receiver (HP-2RNB) | ⚠️ POWERS ON | Gets power, servos center, but no response to TX controls |
 | Receiver crystal | ℹ️ 26.995 MHz | Does NOT match transmitter! |
 | Transmitter crystal | ℹ️ 27.045 MHz | Does NOT match receiver! |
@@ -78,9 +79,10 @@ Date: 2024-11-30 (Updated after debugging session)
    - Buy 27.045 MHz RX crystal (to match existing TX)
    - OR buy 26.995 MHz TX crystal (to match existing RX)
    - OR buy new 2.4 GHz radio system (~400-600 kr)
-5. **Replace power switch** - Simple on/off switch, ~30-50 kr
-6. **Drain old fuel** - Old nitro turns to varnish
-7. **Buy fresh nitro fuel** - Need 16-20% nitromethane
+5. **Buy transmitter antenna** - 27 MHz telescopic antenna missing
+6. **Replace power switch** - Simple on/off switch, ~30-50 kr
+7. **Drain old fuel** - Old nitro turns to varnish
+8. **Buy fresh nitro fuel** - Need 16-20% nitromethane
 
 ### Should Buy/Have Ready
 - Glow starter/igniter (to start engine)
@@ -100,6 +102,8 @@ Date: 2024-11-30 (Updated after debugging session)
 | Glow starter | 250-400 kr | Rechargeable preferred |
 | Nitro fuel (1L) | 150-250 kr | 16-20% nitro, 8-12% oil |
 | On/off switch | 30-50 kr | Simple replacement for broken one |
+| 27.045 MHz RX crystal | 50-150 kr | To match existing TX crystal |
+| 27 MHz TX antenna | 50-100 kr | Telescopic antenna for transmitter |
 
 ### Recommended
 | Item | Est. Price (NOK) | Notes |
@@ -107,7 +111,7 @@ Date: 2024-11-30 (Updated after debugging session)
 | Spare glow plugs (3-pack) | 150-200 kr | Good to have extras |
 | After-run oil | 50-100 kr | Protects engine between runs |
 
-**Estimated minimum to get running: ~500-800 kr**
+**Estimated minimum to get running: ~600-1000 kr**
 
 ## Photos Added This Session
 - Battery holder with corrosion
