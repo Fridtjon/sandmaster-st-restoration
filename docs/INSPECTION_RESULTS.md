@@ -29,14 +29,18 @@ Date: 2024-11-30 (Updated after debugging session)
 |-----------|--------|-------|
 | Transmitter (Ranger II) | ⚠️ POWERS ON | LED works, but may not be transmitting or crystal mismatch |
 | Receiver (HP-2RNB) | ⚠️ POWERS ON | Gets power, servos center, but no response to TX controls |
-| Receiver crystal | ℹ️ 26.995 MHz | Needs matching TX crystal |
-| Transmitter crystal | ❓ UNKNOWN | Cannot read - may not match receiver |
+| Receiver crystal | ℹ️ 26.995 MHz | Does NOT match transmitter! |
+| Transmitter crystal | ℹ️ 27.045 MHz | Does NOT match receiver! |
 | Steering servo | ✅ WORKING | Centers when receiver gets power |
 | Throttle servo | ✅ WORKING | Centers when receiver gets power |
 | Receiver battery holder | ✅ CLEANED | Was corroded - cleaned with vinegar, now outputs 5V |
 | Power switch | ❌ BROKEN | Does not pass power through - must be replaced |
 
-**Radio Problem:** Servos respond to power but NOT to transmitter controls. Likely crystal frequency mismatch between TX and RX.
+**Radio Problem: CRYSTAL MISMATCH CONFIRMED!**
+- TX crystal: 27.045 MHz
+- RX crystal: 26.995 MHz
+- These are different frequencies and will NOT communicate!
+- Solution: Buy matching crystals (either 27.045 RX or 26.995 TX) or new radio system
 
 ### Chassis & Drivetrain
 | Component | Status | Notes |
@@ -70,9 +74,9 @@ Date: 2024-11-30 (Updated after debugging session)
 1. **Buy glow plug** - Engine cannot fire without it
 2. ~~**Clean transmitter corrosion**~~ ✅ DONE
 3. ~~**Clean receiver battery holder**~~ ✅ DONE
-4. **Fix radio communication** - Options:
-   - Find/read TX crystal and verify match with RX (26.995 MHz)
-   - Buy matching 26.995 MHz TX crystal for Hitec
+4. **Fix radio communication** - CRYSTAL MISMATCH FOUND! Options:
+   - Buy 27.045 MHz RX crystal (to match existing TX)
+   - OR buy 26.995 MHz TX crystal (to match existing RX)
    - OR buy new 2.4 GHz radio system (~400-600 kr)
 5. **Replace power switch** - Simple on/off switch, ~30-50 kr
 6. **Drain old fuel** - Old nitro turns to varnish
