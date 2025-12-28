@@ -1,12 +1,15 @@
 # Inspection Results
 
-Date: 2024-11-30 (Updated after debugging session)
+Date: 2024-11-30 (Initial inspection)
+Last updated: 2024-12-28
 
 ## Summary
 
-**Overall status: VERY PROMISING** - The truck is in excellent condition for 30 years old. Radio system fully functional after debugging!
+**Overall status: NEARLY READY TO RUN!**
 
-## Findings
+Radio system fully working with new crystals. Engine has new glow plug. Fresh fuel acquired. Just need to drain old fuel and find a fitting antenna.
+
+## Current Status
 
 ### Engine (Kyosho GS11X)
 | Component | Status | Notes |
@@ -14,108 +17,113 @@ Date: 2024-11-30 (Updated after debugging session)
 | Crankshaft | ✅ OK | Turns freely, not seized |
 | Compression | ✅ OK | Can feel compression when pulling starter |
 | Pull starter | ⚠️ Weak | Works but return spring is weak/slow |
-| Glow plug | ❌ Missing | Hole is open - need to buy new plug |
+| Glow plug | ✅ INSTALLED | New OS 8 glow plug installed |
+| Air filter | ✅ NEW | New filter installed (slightly larger, fits OK) |
 | One-way bearing | ⚠️ Unknown | Clicking sound when spinning clutch bell - may need replacement |
 
 ### Fuel System
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Fuel tank | ✅ OK | Present and intact |
-| Fuel lines | ✅ Surprisingly good | Still soft and flexible |
-| Old fuel | ⚠️ Must drain | Liquid still in system - must be removed |
+| Fuel tank | ✅ CLEANED | Flushed with IPA, drying |
+| Fuel lines | ✅ OK | Original lines still soft and flexible |
+| Fuel filter | ✅ CLEANED | Flushed with IPA, flows OK |
+| Fresh fuel | ✅ READY | 2.5L nitro fuel (16%) purchased |
 
 ### Radio System (Hitec HP-2RNB)
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Transmitter (Ranger II) | ⚠️ POWERS ON | LED works, crystal mismatch, ANTENNA MISSING |
-| Transmitter antenna | ❌ MISSING | Need 27 MHz telescopic antenna |
-| Receiver (HP-2RNB) | ⚠️ POWERS ON | Gets power, servos center, but no response to TX controls |
-| Receiver crystal | ℹ️ 26.995 MHz | Does NOT match transmitter! |
-| Transmitter crystal | ℹ️ 27.045 MHz | Does NOT match receiver! |
-| Steering servo | ✅ WORKING | Centers when receiver gets power |
-| Throttle servo | ✅ WORKING | Centers when receiver gets power |
-| Receiver battery holder | ✅ CLEANED | Was corroded - cleaned with vinegar, now outputs 5V |
-| Power switch | ❌ BROKEN | Does not pass power through - must be replaced |
-
-**Radio Problem: CRYSTAL MISMATCH CONFIRMED!**
-- TX crystal: 27.045 MHz
-- RX crystal: 26.995 MHz
-- These are different frequencies and will NOT communicate!
-- Solution: Buy matching crystals (either 27.045 RX or 26.995 TX) or new radio system
+| Transmitter (Ranger II) | ✅ WORKING | Cleaned, new crystal installed |
+| Transmitter antenna | ❌ MISSING | Purchased antenna too thick - need thinner one |
+| Receiver (HP-2RNB) | ✅ WORKING | Responds to transmitter! |
+| Crystals | ✅ MATCHED | Both TX and RX now 27.145 MHz |
+| Steering servo | ✅ WORKING | Responds to transmitter input |
+| Throttle servo | ✅ WORKING | Responds to transmitter input |
+| Battery holder | ✅ NEW | New holder with switch installed |
+| Power switch | ✅ NEW | Replaced with new switch from AliExpress |
 
 ### Chassis & Drivetrain
 | Component | Status | Notes |
 |-----------|--------|-------|
 | Wheels/Tires | ✅ OK | Still soft, foam inserts present |
 | Drivetrain | ⚠️ Partial | Some movement to wheels but may have slack |
+| Chassis | ✅ CLEANED | Washed and cleaned |
 
-## Debugging Session Log
+---
 
-### Transmitter Fix
-1. Transmitter had battery corrosion - would not power on
-2. Cleaned contacts with white vinegar + toothbrush
-3. Result: LED lights up, transmitter works!
+## Restoration Log
 
-### Receiver Battery Fix
-1. 4x VARTA NiCd batteries had leaked - heavy white/green corrosion
-2. Cleaned battery holder contacts with vinegar
-3. Installed 4x fresh AA batteries
-4. Measured 5.07V output - battery holder works!
+### Session 1: Initial Inspection (2024-11-30)
+- Transmitter had battery corrosion - cleaned with vinegar
+- Receiver battery holder had NiCd leak - cleaned with vinegar
+- Discovered crystal mismatch (TX: 27.045 MHz, RX: 26.995 MHz)
+- Found power switch broken - bypassed for testing
+- Confirmed servos work when receiver gets power
 
-### Power Switch Problem Found
-1. Measured voltage at battery = 5V ✓
-2. Measured voltage at receiver = 0V ✗
-3. Concluded: Switch is not passing power through
-4. Bypassed switch with temporary wires
-5. Result: Receiver powers on, servos respond! Radio system works!
+### Session 2: Parts Installation (2024-12-28)
+- Washed truck exterior - much cleaner now
+- Transmitter also cleaned - has glossy finish under the dirt
+- Installed OS 8 glow plug - went smoothly
+- Installed new air filter (slightly larger, fits OK)
+- Replaced both crystals with matching 27.145 MHz pair
+- Installed new battery holder with integrated switch
+- **RADIO NOW FULLY WORKING** - both servos respond to TX!
+- Antenna from AliExpress didn't fit (too thick for TX hole)
+- Drained and cleaned fuel system with isopropanol (Blårens)
+- Old fuel had turned to varnish/gunk (IPA turned blue-green)
+- Flushed fuel filter - flows OK
+- System disassembled and drying
 
-## Action Items
+---
 
-### Must Fix Before Running
-1. **Buy glow plug** - Engine cannot fire without it
-2. ~~**Clean transmitter corrosion**~~ ✅ DONE
-3. ~~**Clean receiver battery holder**~~ ✅ DONE
-4. **Fix radio communication** - CRYSTAL MISMATCH FOUND! Options:
-   - Buy 27.045 MHz RX crystal (to match existing TX)
-   - OR buy 26.995 MHz TX crystal (to match existing RX)
-   - OR buy new 2.4 GHz radio system (~400-600 kr)
-5. **Buy transmitter antenna** - 27 MHz telescopic antenna missing
-6. **Replace power switch** - Simple on/off switch, ~30-50 kr
-7. **Drain old fuel** - Old nitro turns to varnish
-8. **Buy fresh nitro fuel** - Need 16-20% nitromethane
+## Remaining Tasks
 
-### Should Buy/Have Ready
-- Glow starter/igniter (to start engine)
-- AA batteries for transmitter (8x) ✅ Have
-- AA batteries for receiver (4x) ✅ Have
+### Before First Start
+| Task | Status |
+|------|--------|
+| Drain old fuel | ✅ Done - cleaned with IPA |
+| Reassemble fuel system | ⏳ Drying, then reassemble |
+| Fill with fresh fuel | ⏳ Ready when reassembled |
+| Find fitting TX antenna | ⏳ Pending - need thinner one |
 
-### Nice to Fix
-- Pull starter return spring (works but weak)
-- Inspect one-way bearing (clicking sound)
+### Nice to Have
+| Task | Priority |
+|------|----------|
+| Fine-clean transmitter | Low |
+| Inspect one-way bearing | Low |
+| Replace pull starter spring | Low |
 
-## Updated Shopping List
+---
 
-### Essential (must have to run)
-| Item | Est. Price (NOK) | Notes |
-|------|------------------|-------|
-| Glow plug | 50-100 kr | Standard size, "hot" rating for .12 engine |
-| Glow starter | 250-400 kr | Rechargeable preferred |
-| Nitro fuel (1L) | 150-250 kr | 16-20% nitro, 8-12% oil |
-| On/off switch | 30-50 kr | Simple replacement for broken one |
-| 27.045 MHz RX crystal | 50-150 kr | To match existing TX crystal |
-| 27 MHz TX antenna | 50-100 kr | Telescopic antenna for transmitter |
+## Parts Acquired
 
-### Recommended
-| Item | Est. Price (NOK) | Notes |
-|------|------------------|-------|
-| Spare glow plugs (3-pack) | 150-200 kr | Good to have extras |
-| After-run oil | 50-100 kr | Protects engine between runs |
+| Item | Source | Status |
+|------|--------|--------|
+| OS 8 Glow Plug | Elefun | ✅ Installed |
+| HPI Nitro Starter Pack | Elefun | ✅ Received |
+| Fuel lines (spare) | Elefun | ✅ Received (not needed yet) |
+| Air filter | ? | ✅ Installed |
+| 27.145 MHz Crystal Pair | AliExpress | ✅ Installed |
+| Battery holder + switch | AliExpress | ✅ Installed |
+| M4 Antenna | AliExpress | ❌ Doesn't fit (too thick) |
+| Nitro fuel 16% (2.5L) | ? | ✅ Ready |
 
-**Estimated minimum to get running: ~600-1000 kr**
+---
 
-## Photos Added This Session
-- Battery holder with corrosion
+## Antenna Issue
+
+The M4 telescopic antenna purchased from AliExpress is too thick to fit through the antenna hole in the transmitter housing.
+
+**Next steps:**
+1. Try screwing the antenna onto the TX antenna mount to check if thread matches
+2. Measure the hole diameter in the TX housing
+3. Find a thinner antenna that fits
+
+---
+
+## Photos
+- Battery holder with corrosion (before)
 - Power switch
 - Hitec HP-2RNB receiver
 - Multimeter testing
 - Wiring overview
+- TX internals showing crystal

@@ -1,21 +1,23 @@
 # Shopping List - Sandmaster ST Restoration
 
-Last updated: 2024-12-01
+Last updated: 2024-12-28
 
 ## Status Legend
 - [ ] Not ordered
 - [~] Ordered, waiting for delivery
 - [x] Received
+- [!] Doesn't fit/work
 
 ---
 
-## Elefun Order
+## Elefun Order - [x] RECEIVED
 
-| Product | Price | Link |
-|---------|-------|------|
-| HPI Nitro Starter Pack | 356 kr | [Link](https://www.elefun.no/vare-53386/radiostyrt-bil-utstyr-hpi-nitro-starter-pack) |
-| OS 8 Glow Plug | 89 kr | [Link](https://www.elefun.no/vare-805/glowmotor-glodeplugg-os-8) |
-| **Subtotal** | **445 kr** | |
+| Product | Price | Status |
+|---------|-------|--------|
+| HPI Nitro Starter Pack | 356 kr | [x] Received |
+| OS 8 Glow Plug | 89 kr | [x] Installed |
+| Fuel lines (extra) | ~50 kr | [x] Received (backup) |
+| **Subtotal** | **~495 kr** | |
 
 **HPI Starter Pack includes:**
 - Glow starter (1800mAh) + USB charger
@@ -25,53 +27,66 @@ Last updated: 2024-12-01
 
 ---
 
-## Modellflybutikken Order
+## AliExpress Order - [x] RECEIVED
 
-| Product | Price | Link |
-|---------|-------|------|
-| Maxima Racing Fuel 16% (0.5L) | 225 kr | [Link](https://modellflybutikken.no/produkt/drivstoff-fuel/maxima-racing-fuel-16-nitro-0-5-liter/) |
-| **Subtotal** | **225 kr** | |
+| Product | Price | Status |
+|---------|-------|--------|
+| 27.145 MHz TX+RX Crystal Pair | ~23 kr | [x] Installed - WORKING! |
+| M4 Telescopic Antenna | ~40 kr | [!] Too thick - doesn't fit |
+| RC Switch + Battery Holder | ~14 kr | [x] Installed |
+| **Subtotal** | **~77 kr + frakt** | |
 
 ---
 
-## AliExpress Order
+## Other Purchases - [x] RECEIVED
 
-| Product | Price | Link |
-|---------|-------|------|
-| 27 MHz TX+RX Crystal Pair | ~23 kr | [Link](https://www.aliexpress.com/item/1005004943011847.html) |
-| M4 Telescopic Antenna | ~40 kr | [Link](https://www.aliexpress.com/item/1005008235110729.html) |
-| RC Switch + Battery Holder | ~14 kr | [Link](https://www.aliexpress.com/item/32898820215.html) |
-| **Subtotal** | **~77 kr + frakt** | |
+| Product | Price | Status |
+|---------|-------|--------|
+| Nitro fuel 16% (2.5L) | ~400 kr? | [x] Ready to use |
+| Air filter | ? | [x] Installed |
 
-**Notes:**
-- Crystals: Replace BOTH crystals (TX and RX) with the new matching pair
-- Antenna: M4 thread, verify fit when it arrives
-- Switch: Comes with spare battery holder (same as original)
+---
+
+## Still Needed
+
+### TX Antenna (replacement)
+- [~] **Thinner telescopic antenna**
+  - The M4 antenna is too thick for the TX housing hole
+  - Need to measure: hole diameter and thread size
+  - Check if thread on current antenna matches before buying new
 
 ---
 
 ## Cost Summary
 
-| Store | Amount |
-|-------|--------|
-| Elefun | 445 kr |
-| Modellflybutikken | 225 kr |
-| AliExpress | ~77 kr + frakt |
-| **TOTAL** | **~750 kr + frakt** |
+| Category | Amount |
+|----------|--------|
+| Elefun | ~495 kr |
+| AliExpress | ~77 kr |
+| Fuel + filter | ~450 kr? |
+| **TOTAL SPENT** | **~1020 kr** |
 
 ---
 
-## Priority 2: RECOMMENDED (later)
+## Parts Status Overview
 
-| Item | Price | Notes |
-|------|-------|-------|
-| Extra OS 8 glow plugs | 89 kr each | Burn out over time |
-| After-run oil | ~75 kr | Protects engine between sessions |
+| Part | Status |
+|------|--------|
+| Glow plug | ✅ Installed |
+| Glow starter | ✅ Ready |
+| Fuel | ✅ Ready (2.5L) |
+| Crystals | ✅ Installed (27.145 MHz) |
+| Battery holder | ✅ Installed |
+| Power switch | ✅ Installed |
+| Air filter | ✅ Installed |
+| Fuel lines | ✅ Backup ready |
+| **TX Antenna** | ❌ Need replacement |
 
 ---
 
 ## Notes
 
-- Fuel: 0.5L is enough for initial testing
-- AliExpress delivery may take 2-4 weeks
-- All essential parts found!
+- Radio system fully working after crystal replacement!
+- Original fuel lines still good - new ones kept as backup
+- Antenna issue: M4 antenna too thick, need thinner one
+- Before buying new antenna: check thread compatibility on TX mount
