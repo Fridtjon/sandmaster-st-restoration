@@ -16,7 +16,7 @@ Radio system fully working with new crystals. Engine has new glow plug. Fresh fu
 |-----------|--------|-------|
 | Crankshaft | ✅ OK | Turns freely, not seized |
 | Compression | ✅ OK | Can feel compression when pulling starter |
-| Pull starter | ⚠️ Weak | Works but return spring is weak/slow |
+| Pull starter | ⚠️ Needs service | Cord doesn't retract - needs WD-40/cleaning |
 | Glow plug | ✅ INSTALLED | New OS 8 glow plug installed |
 | Air filter | ✅ NEW | New filter installed (slightly larger, fits OK) |
 | One-way bearing | ⚠️ Unknown | Clicking sound when spinning clutch bell - may need replacement |
@@ -72,6 +72,8 @@ Radio system fully working with new crystals. Engine has new glow plug. Fresh fu
 - Old fuel had turned to varnish/gunk (IPA turned blue-green)
 - Flushed fuel filter - flows OK
 - System disassembled and drying
+- Pull starter issue: cord doesn't retract properly (weak spring or dirt buildup)
+- Plan: lubricate with WD-40 before first start attempt
 
 ---
 
@@ -81,9 +83,12 @@ Radio system fully working with new crystals. Engine has new glow plug. Fresh fu
 | Task | Status |
 |------|--------|
 | Drain old fuel | ✅ Done - cleaned with IPA |
+| Lubricate pull starter | ⏳ Pending - buy WD-40 |
 | Reassemble fuel system | ⏳ Drying, then reassemble |
 | Fill with fresh fuel | ⏳ Ready when reassembled |
-| Find fitting TX antenna | ⏳ Pending - need thinner one |
+| Charge glow starter | ⏳ Pending - USB charge overnight |
+| First start attempt | ⏳ Ready when above complete |
+| Find fitting TX antenna | ⏳ Low priority - can test without |
 
 ### Nice to Have
 | Task | Priority |
