@@ -75,20 +75,45 @@ Radio system fully working with new crystals. Engine has new glow plug. Fresh fu
 - Pull starter issue: cord doesn't retract properly (weak spring or dirt buildup)
 - Plan: lubricate with WD-40 before first start attempt
 
+### Session 3: First Start Attempt (2024-12-29)
+- Lubricated pull starter with WD-40
+- Reassembled fuel system
+- Filled with fresh 16% nitro fuel
+- Glow starter charged and working (plug glows orange)
+- Radio system working, servos responding
+
+**Start attempt: UNSUCCESSFUL**
+
+Observations:
+- Fuel flows through lines to carburetor area
+- Glow plug is dry - fuel not reaching combustion chamber
+- Pull starter still sluggish despite WD-40 - hard to pull fast enough
+- Fuel filter has minor leak (not introducing air)
+- Possible minor leak near engine area
+
+**Hypotheses:**
+1. **Pull starter too weak** - Can't pull fast/hard enough to create proper suction
+2. **Needle valve too lean** - Mixture screw may be closed too much
+3. **Carburetor gummed up** - Old fuel residue may be blocking internal passages
+4. **Compression/vacuum issue** - Not creating enough suction to draw fuel in
+
 ---
 
 ## Remaining Tasks
 
-### Before First Start
+### To Get Engine Running
 | Task | Status |
 |------|--------|
-| Drain old fuel | ✅ Done - cleaned with IPA |
-| Lubricate pull starter | ⏳ Pending - buy WD-40 |
-| Reassemble fuel system | ⏳ Drying, then reassemble |
-| Fill with fresh fuel | ⏳ Ready when reassembled |
-| Charge glow starter | ⏳ Pending - USB charge overnight |
-| First start attempt | ⏳ Ready when above complete |
-| Find fitting TX antenna | ⏳ Low priority - can test without |
+| Drain old fuel | ✅ Done |
+| Lubricate pull starter | ✅ Done (WD-40) - still sluggish |
+| Reassemble fuel system | ✅ Done |
+| Fill with fresh fuel | ✅ Done |
+| Charge glow starter | ✅ Done |
+| First start attempt | ❌ Failed - fuel not reaching combustion chamber |
+| **Fix pull starter** | ⏳ Priority - disassemble and service |
+| **Adjust/clean carburetor** | ⏳ Open needle valve, possibly clean |
+| Replace fuel filter | ⏳ Minor leak observed |
+| Find fitting TX antenna | ⏳ Low priority |
 
 ### Nice to Have
 | Task | Priority |
