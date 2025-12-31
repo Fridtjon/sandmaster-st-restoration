@@ -1,7 +1,7 @@
 # Inspection Results
 
 Date: 2024-11-30 (Initial inspection)
-Last updated: 2024-12-28
+Last updated: 2025-12-31
 
 ## Summary
 
@@ -75,7 +75,7 @@ Radio system fully working with new crystals. Engine has new glow plug. Fresh fu
 - Pull starter issue: cord doesn't retract properly (weak spring or dirt buildup)
 - Plan: lubricate with WD-40 before first start attempt
 
-### Session 3: First Start Attempt (2024-12-29)
+### Session 3: First Start Attempt (2025-12-31)
 - Lubricated pull starter with WD-40
 - Reassembled fuel system
 - Filled with fresh 16% nitro fuel
