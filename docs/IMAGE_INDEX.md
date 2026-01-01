@@ -19,6 +19,21 @@ This document catalogs all images in the restoration project.
 | 11-battery-corrosion-detail.heic | Heavy corrosion on battery terminals - batteries need replacement |
 | 12-battery-holder-contacts.heic | Battery holder contact springs with corrosion |
 | 13-power-switch.heic | Power switch for receiver system on chassis |
+| 19-workspace-balcony-overview.heic | Workspace setup on balcony - truck, fuel, HPI kit |
+| 20-chassis-side-engine-receiver.heic | Chassis side view showing engine, receiver, new battery holder |
+| 21-chassis-top-overview.heic | Top-down view of chassis showing full layout |
+| 22-chassis-side-view.heic | Chassis side view on box |
+| 23-engine-closeup-fuel-tank.heic | Engine close-up with fuel tank (pink fuel visible) |
+| 24-engine-closeup-air-filter.heic | Engine close-up showing new blue/white air filter |
+| 25-engine-exhaust-manifold.heic | Engine with exhaust manifold and rear suspension visible |
+| 26-engine-underside-pull-starter.heic | Engine from below showing pull starter |
+| 27-engine-fuel-tank-detail.heic | Fuel tank and engine detail |
+| 28-pull-starter-disassembled-spring.heic | **Pull starter disassembled** - recoil spring unwound |
+| 29-engine-pull-starter-removed.heic | Engine with pull starter removed, backplate visible |
+| 30-pull-starter-housing-dirty.heic | Pull starter housing inside - shows dirt buildup |
+| 31-kyosho-wheel-inside.heic | Kyosho wheel inside view - yellow rim, tire markings |
+| 32-kyosho-wheel-outside.heic | Kyosho wheel outside view - spoke pattern |
+| 33-pull-starter-parts-overview.heic | Overview of disassembled pull starter parts |
 
 ## Transmitter (`images/transmitter/`)
 
@@ -67,4 +82,7 @@ This document catalogs all images in the restoration project.
 
 - Original images were in HEIC format from iPhone
 - 1 blank page (IMG_2750) was excluded
-- Total: 78 useful images cataloged (72 initial + 6 from inspection session)
+- Total: 93 useful images cataloged
+  - 72 initial images
+  - 6 from inspection session
+  - 15 from session 3 (first start attempt + pull starter fix)
