@@ -16,7 +16,7 @@ Radio system fully working with new crystals. Engine has new glow plug. Fresh fu
 |-----------|--------|-------|
 | Crankshaft | ✅ OK | Turns freely, not seized |
 | Compression | ✅ OK | Can feel compression when pulling starter |
-| Pull starter | ⚠️ Needs service | Cord doesn't retract - needs WD-40/cleaning |
+| Pull starter | ✅ FIXED | Cleaned cord and mechanism - works properly now |
 | Glow plug | ✅ INSTALLED | New OS 8 glow plug installed |
 | Air filter | ✅ NEW | New filter installed (slightly larger, fits OK) |
 | One-way bearing | ⚠️ Unknown | Clicking sound when spinning clutch bell - may need replacement |
@@ -97,6 +97,18 @@ Observations:
 3. **Carburetor gummed up** - Old fuel residue may be blocking internal passages
 4. **Compression/vacuum issue** - Not creating enough suction to draw fuel in
 
+### Session 3 continued: Pull Starter Fix (2025-12-31)
+- Disassembled pull starter unit (removed wheel to access screws)
+- Found: cord/rope was heavily soiled and stiff from 30 years of dirt
+- Cleaned all parts with isopropanol (IPA)
+- Washed cord thoroughly - now soft and flexible again
+- Reassembled pull starter
+- **RESULT: Pull starter now works properly!** Spring returns cord without issues
+- Comparison to old photos shows cord now hangs with natural slack (was stiff before)
+- Plan: Apply silicone spray tomorrow for optimal lubrication
+
+**Root cause identified:** The dirty/stiff cord was preventing the spring from retracting properly. Cleaning restored full function.
+
 ---
 
 ## Remaining Tasks
@@ -105,14 +117,15 @@ Observations:
 | Task | Status |
 |------|--------|
 | Drain old fuel | ✅ Done |
-| Lubricate pull starter | ✅ Done (WD-40) - still sluggish |
 | Reassemble fuel system | ✅ Done |
 | Fill with fresh fuel | ✅ Done |
 | Charge glow starter | ✅ Done |
 | First start attempt | ❌ Failed - fuel not reaching combustion chamber |
-| **Fix pull starter** | ⏳ Priority - disassemble and service |
-| **Adjust/clean carburetor** | ⏳ Open needle valve, possibly clean |
-| Replace fuel filter | ⏳ Minor leak observed |
+| Fix pull starter | ✅ Done - cleaned, cord was stiff from dirt |
+| Apply silicone spray to pull starter | ⏳ Tomorrow |
+| Adjust carburetor (needle valve) | ⏳ May still need adjustment |
+| **Second start attempt** | ⏳ After silicone spray |
+| Replace fuel filter | ⏳ Minor leak observed - low priority |
 | Find fitting TX antenna | ⏳ Low priority |
 
 ### Nice to Have
