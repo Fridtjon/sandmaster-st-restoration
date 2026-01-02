@@ -34,6 +34,7 @@ This document catalogs all images in the restoration project.
 | 31-kyosho-wheel-inside.heic | Kyosho wheel inside view - yellow rim, tire markings |
 | 32-kyosho-wheel-outside.heic | Kyosho wheel outside view - spoke pattern |
 | 33-pull-starter-parts-overview.heic | Overview of disassembled pull starter parts |
+| 34-pull-starter-cleaned-reassembled.heic | **Pull starter after cleaning** - cord now flexible, returns smoothly |
 
 ## Transmitter (`images/transmitter/`)
 
@@ -82,7 +83,8 @@ This document catalogs all images in the restoration project.
 
 - Original images were in HEIC format from iPhone
 - 1 blank page (IMG_2750) was excluded
-- Total: 93 useful images cataloged
+- Total: 94 useful images cataloged
   - 72 initial images
   - 6 from inspection session
   - 15 from session 3 (first start attempt + pull starter fix)
+  - 1 from session 4 (pull starter cleaned and working)
