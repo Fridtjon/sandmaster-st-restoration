@@ -1,6 +1,6 @@
 # Inspection Results
 
-Date: 2024-11-30 (Initial inspection)
+Date: 2025-11-30 (Initial inspection)
 Last updated: 2026-01-18
 
 ## Summary
@@ -52,14 +52,14 @@ After 30+ years, the Kyosho Sandmaster ST lives again! Engine successfully start
 
 ## Restoration Log
 
-### Session 1: Initial Inspection (2024-11-30)
+### Session 1: Initial Inspection (2025-11-30)
 - Transmitter had battery corrosion - cleaned with vinegar
 - Receiver battery holder had NiCd leak - cleaned with vinegar
 - Discovered crystal mismatch (TX: 27.045 MHz, RX: 26.995 MHz)
 - Found power switch broken - bypassed for testing
 - Confirmed servos work when receiver gets power
 
-### Session 2: Parts Installation (2024-12-28)
+### Session 2: Parts Installation (2025-12-28)
 - Washed truck exterior - much cleaner now
 - Transmitter also cleaned - has glossy finish under the dirt
 - Installed OS 8 glow plug - went smoothly

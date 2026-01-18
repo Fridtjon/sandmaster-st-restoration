@@ -12,11 +12,11 @@
 
 ## The Story
 
-In late 2024, I found a dusty Kyosho Sandmaster ST at a flea market in Norway. It was a complete 1994 nitro-powered RC truck - transmitter, manual, everything in the original box. The seller had no idea if it worked. Neither did I. I'd never touched an RC car in my life, let alone a nitro engine.
+Back in 2023, I found a dusty Kyosho Sandmaster ST at a flea market in Norway. It was a complete 1994 nitro-powered RC truck - transmitter, manual, everything in the original box. The seller had no idea if it worked. Neither did I. I'd never touched an RC car in my life, let alone a nitro engine.
 
-**So I bought it.**
+**So I bought it.** Then it sat on a shelf for two years.
 
-This repository documents the entire restoration journey - from "what even is a glow plug?" to hearing the engine roar for the first time after three decades of silence.
+In late 2025, I finally decided to do something about it. This repository documents the entire restoration journey - from "what even is a glow plug?" to hearing the engine roar for the first time after three decades of silence.
 
 ### The Twist
 
@@ -86,8 +86,8 @@ docs/
 
 | Session | Date | Milestone |
 |---------|------|-----------|
-| 1 | Nov 2024 | Initial inspection - discovered crystal mismatch, corroded batteries |
-| 2 | Dec 2024 | Parts installed - glow plug, crystals, battery holder. Radio works! |
+| 1 | Nov 2025 | Initial inspection - discovered crystal mismatch, corroded batteries |
+| 2 | Dec 2025 | Parts installed - glow plug, crystals, battery holder. Radio works! |
 | 3 | Dec 2025 | First start attempt - failed. Pull starter too weak, fuel not reaching engine |
 | 3b | Dec 2025 | Root cause found - pull starter cord stiff from 30 years of dirt |
 | 4 | Jan 2026 | Pull starter cleaned and lubricated - works perfectly |
