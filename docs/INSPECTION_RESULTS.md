@@ -1,13 +1,13 @@
 # Inspection Results
 
 Date: 2024-11-30 (Initial inspection)
-Last updated: 2025-12-31
+Last updated: 2026-01-18
 
 ## Summary
 
-**Overall status: NEARLY READY TO RUN!**
+**Overall status: ENGINE RUNS! 🎉**
 
-Radio system fully working with new crystals. Engine has new glow plug. Fresh fuel acquired. Just need to drain old fuel and find a fitting antenna.
+After 30+ years, the Kyosho Sandmaster ST lives again! Engine successfully started on 2026-01-17. Minor issues to address (glow plug leak, learn proper shutdown technique) but the truck is fundamentally operational.
 
 ## Current Status
 
@@ -116,11 +116,46 @@ Observations:
 - **RESULT: Pull starter now works perfectly!** Cord returns smoothly and easily
 - Ready for second start attempt
 
+### Session 5: FIRST SUCCESSFUL START! (2026-01-17)
+
+**ENGINE STARTED SUCCESSFULLY!** 🎉
+
+After several pulls with proper technique (glow plug fully heated), the engine fired up and ran!
+
+**Observations:**
+- Starting worked well once technique was mastered - glow plug must be fully hot (glowing orange)
+- Engine consumed fuel quickly (running rich, plus some leaks)
+- Fuel leaked from glow plug area - needs to be tightened properly
+- Exhaust produced vapor/steam where it hit surfaces (normal - water vapor + unburnt nitro)
+- Tested on balcony in apartment building - had to stop quickly due to noise
+
+**Needle valve notes:**
+- Small metal screw controls fuel mixture
+- Counter-clockwise = richer (more fuel), clockwise = leaner (less fuel)
+- User attempted to stop engine by closing needle valve - felt "loose" at end of travel
+- WARNING: Never run engine with needle valve fully closed (too lean = overheating)
+
+**Shutdown attempts:**
+- Fuel tank has a shut-off button/valve - didn't seem to work
+- Eventually stopped engine by pulling out fuel line (works but not ideal)
+- Proper methods: pinch fuel line, or cover exhaust opening
+
+**Drivetrain observation:**
+- Wheels did not spin at idle - this is NORMAL!
+- Nitro RC cars have centrifugal clutch - only engages when engine revs up
+- Need to test with throttle to verify drivetrain works
+
+**Next steps:**
+- Tighten glow plug properly
+- Learn proper shutdown technique
+- Test drivetrain with throttle (find suitable outdoor location)
+- Consider needle valve adjustment if running too rich
+
 ---
 
 ## Remaining Tasks
 
-### To Get Engine Running
+### Engine Running - ACHIEVED!
 | Task | Status |
 |------|--------|
 | Drain old fuel | ✅ Done |
@@ -129,18 +164,24 @@ Observations:
 | Charge glow starter | ✅ Done |
 | First start attempt | ❌ Failed - fuel not reaching combustion chamber |
 | Fix pull starter | ✅ Done - cleaned, cord was stiff from dirt |
-| Apply silicone spray to pull starter | ⏳ Tomorrow |
-| Adjust carburetor (needle valve) | ⏳ May still need adjustment |
-| **Second start attempt** | ⏳ After silicone spray |
-| Replace fuel filter | ⏳ Minor leak observed - low priority |
-| Find fitting TX antenna | ⏳ Low priority |
+| Apply silicone spray to pull starter | ✅ Done |
+| **Second start attempt** | ✅ **SUCCESS!** Engine runs! |
+
+### Current Issues
+| Task | Priority |
+|------|----------|
+| Tighten glow plug | High - fuel leaking |
+| Test drivetrain with throttle | High - verify wheels spin |
+| Learn proper shutdown technique | Medium |
+| Adjust needle valve if needed | Medium - running rich |
+| Replace fuel filter | Low - minor leak |
+| Find fitting TX antenna | Low |
 
 ### Nice to Have
 | Task | Priority |
 |------|----------|
 | Fine-clean transmitter | Low |
 | Inspect one-way bearing | Low |
-| Replace pull starter spring | Low |
 
 ---
 
